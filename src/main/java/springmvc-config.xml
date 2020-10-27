@@ -21,5 +21,7 @@
 	<mvc:annotation-driven />
 	
 	<mvc:resources location="/js/" mapping="/js/**" />
-	
+	<mvc:interceptors>
+		<bean class="cn.edu.ujn.ch14.util.MyInterCeptor"></bean>
+	</mvc:interceptors>
 </beans>
