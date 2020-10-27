@@ -18,4 +18,8 @@
 		<!-- 设置后缀 -->
 		<property name="suffix" value=".jsp" />
 	</bean>	
+	<mvc:annotation-driven />
+	
+	<mvc:resources location="/js/" mapping="/js/**" />
+	
 </beans>
